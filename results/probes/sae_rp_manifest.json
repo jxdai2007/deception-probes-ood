@@ -1,0 +1,23 @@
+{
+  "source_file": "vendor/deception-detection/example_results/sae_rp/detector.pt",
+  "source_sha256": "0d8bb2ccbc5b869a6b624ae0fb5d2e2505b7648a590d9fa9c6507138d494b0a7",
+  "layers": [
+    0
+  ],
+  "directions_shape": [
+    1,
+    131072
+  ],
+  "directions_dtype": "float32",
+  "hidden_dim": 131072,
+  "expected_residual_dim": 8192,
+  "normalize": false,
+  "reg_coeff": 1.0,
+  "probe_space": "sae_latent",
+  "excluded_from_transfer": true,
+  "exclusion_reason": "sae-latent probe; requires source-model SAE; unrefitted cross-model transfer undefined",
+  "finite_values": true,
+  "outputs": {
+    "directions_npy": "results/probes/sae_rp_directions.npy"
+  }
+}

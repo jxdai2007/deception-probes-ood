@@ -1,0 +1,23 @@
+{
+  "source_file": "vendor/deception-detection/example_results/descriptive/detector.pt",
+  "source_sha256": "5ed709c4b0f98413a6222153e9d5b777d3c7663ce5de4aa8bce0c8f62f0eff2d",
+  "layers": [
+    22
+  ],
+  "directions_shape": [
+    1,
+    8192
+  ],
+  "directions_dtype": "float32",
+  "hidden_dim": 8192,
+  "expected_residual_dim": 8192,
+  "normalize": false,
+  "reg_coeff": null,
+  "probe_space": "residual",
+  "excluded_from_transfer": false,
+  "exclusion_reason": null,
+  "finite_values": true,
+  "outputs": {
+    "directions_npy": "results/probes/descriptive_directions.npy"
+  }
+}

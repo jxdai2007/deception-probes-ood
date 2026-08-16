@@ -1,0 +1,18 @@
+{
+  "model": "Meta-Llama-3.1-8B-Instruct",
+  "dataset": "roleplaying",
+  "protocol": "5-fold CV, dialogue-level folds, per-token fit, mean prompt score, single AUROC over out-of-fold scores",
+  "auroc": 0.9364883884588318,
+  "n": 287,
+  "n_honest": 84,
+  "n_deceptive": 203,
+  "k_folds": 5,
+  "published_range": [
+    0.96,
+    0.999
+  ],
+  "tolerance": 0.02,
+  "passed": false,
+  "single_split_seed_range_note": "80/20 single split gave 0.88-0.97 across seeds 42/7/123 (val honest arm n~17); CV protocol adopted for power",
+  "disposition": "documented miss; proceed per the documented project decision — instrument validated by size trend; per-model ceilings are the OOD reference"
+}

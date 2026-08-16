@@ -1,0 +1,25 @@
+{
+  "source_file": "vendor/deception-detection/example_results/roleplaying/detector.pt",
+  "source_sha256": "c83aa151373d94d1dc8da879ff4a87b18de92a1e209820223a6802067a267487",
+  "layers": [
+    22
+  ],
+  "directions_shape": [
+    1,
+    8192
+  ],
+  "directions_dtype": "float32",
+  "hidden_dim": 8192,
+  "expected_residual_dim": 8192,
+  "normalize": true,
+  "reg_coeff": 10.0,
+  "probe_space": "residual",
+  "excluded_from_transfer": false,
+  "exclusion_reason": null,
+  "finite_values": true,
+  "outputs": {
+    "directions_npy": "results/probes/roleplaying_directions.npy",
+    "scaler_mean_npy": "results/probes/roleplaying_scaler_mean.npy",
+    "scaler_scale_npy": "results/probes/roleplaying_scaler_scale.npy"
+  }
+}

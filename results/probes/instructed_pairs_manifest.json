@@ -1,0 +1,25 @@
+{
+  "source_file": "vendor/deception-detection/example_results/instructed_pairs/detector.pt",
+  "source_sha256": "203d8a4a7c2007e2e0e5bdde253f27fd82a3ed90abfeee6468511661848c3ac5",
+  "layers": [
+    22
+  ],
+  "directions_shape": [
+    1,
+    8192
+  ],
+  "directions_dtype": "float32",
+  "hidden_dim": 8192,
+  "expected_residual_dim": 8192,
+  "normalize": true,
+  "reg_coeff": 10.0,
+  "probe_space": "residual",
+  "excluded_from_transfer": false,
+  "exclusion_reason": null,
+  "finite_values": true,
+  "outputs": {
+    "directions_npy": "results/probes/instructed_pairs_directions.npy",
+    "scaler_mean_npy": "results/probes/instructed_pairs_scaler_mean.npy",
+    "scaler_scale_npy": "results/probes/instructed_pairs_scaler_scale.npy"
+  }
+}

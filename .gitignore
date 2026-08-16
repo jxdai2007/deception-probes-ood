@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# model weights, checkpoints, caches
+models/
+hf_cache/
+*.safetensors
+*.bin
+*.gguf
+checkpoints/
+
+# large results / logs (keep tables + figures, ignore raw)
+**/results/**/*.log
+**/results/**/raw/
+**/results/**/activations/
+wandb/
+
+# env secrets
+.env
+.superpowers/
+
+# build artifacts from the editable install on the cluster
+*.egg-info/
+projects/04-deception-probes/vendor/
+projects/03-alignment-faking/vendor-af/

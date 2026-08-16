@@ -1,0 +1,362 @@
+[
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.8156249999999998,
+    "auroc_se": 0.05482631433584008,
+    "n_eval": 56
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.43291666666666667,
+    "auroc_se": 0.04362793605719092,
+    "n_eval": 170
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.18623131579572727,
+    "auroc_se": 0.01369865176021148,
+    "n_eval": 922
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.5079756040347173,
+    "auroc_se": 0.035983914123269546,
+    "n_eval": 287
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.826388888888889,
+    "auroc_se": 0.06742150213854096,
+    "n_eval": 34
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.579344597324208,
+    "auroc_se": 0.019153653321084308,
+    "n_eval": 922
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.4147900539526155,
+    "auroc_se": 0.03697668443481208,
+    "n_eval": 287
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5616666666666666,
+    "auroc_se": 0.04392846188058995,
+    "n_eval": 170
+  },
+  {
+    "model": "gemma-2-2b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.9949898604318264,
+    "auroc_se": 0.0032581575272552952,
+    "n_eval": 184
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.821875,
+    "auroc_se": 0.05655481430863667,
+    "n_eval": 56
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5009722222222223,
+    "auroc_se": 0.04523227685111377,
+    "n_eval": 170
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.2726598702502317,
+    "auroc_se": 0.016215127482245774,
+    "n_eval": 922
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.5252169833450622,
+    "auroc_se": 0.035310137481144706,
+    "n_eval": 287
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.8645833333333334,
+    "auroc_se": 0.05944872362177751,
+    "n_eval": 34
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.7083386801644447,
+    "auroc_se": 0.0173767968231089,
+    "n_eval": 922
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.4112714051137696,
+    "auroc_se": 0.03740090907728996,
+    "n_eval": 287
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.6361111111111111,
+    "auroc_se": 0.041728905229067685,
+    "n_eval": 170
+  },
+  {
+    "model": "gemma-2-9b-it",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.9910533221996898,
+    "auroc_se": 0.004579895004787159,
+    "n_eval": 184
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.8078125,
+    "auroc_se": 0.06487112899021293,
+    "n_eval": 56
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.46277777777777773,
+    "auroc_se": 0.04553004616387308,
+    "n_eval": 170
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.2052710772558424,
+    "auroc_se": 0.014211648943970125,
+    "n_eval": 927
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.46317147548674636,
+    "auroc_se": 0.03569833937768555,
+    "n_eval": 287
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.84375,
+    "auroc_se": 0.06465670712489593,
+    "n_eval": 34
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.5645883293365308,
+    "auroc_se": 0.018777953221444252,
+    "n_eval": 927
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.4087497067792635,
+    "auroc_se": 0.037003724239972474,
+    "n_eval": 287
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5650000000000001,
+    "auroc_se": 0.043664555430302114,
+    "n_eval": 170
+  },
+  {
+    "model": "Llama-3.2-1B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.9974013701866289,
+    "auroc_se": 0.002144006076696822,
+    "n_eval": 185
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.8796875,
+    "auroc_se": 0.0436846319415775,
+    "n_eval": 56
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5094444444444444,
+    "auroc_se": 0.043872722159576084,
+    "n_eval": 170
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.22073635209479472,
+    "auroc_se": 0.014312783853594531,
+    "n_eval": 927
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.5303776683087028,
+    "auroc_se": 0.03519074557462361,
+    "n_eval": 287
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.84375,
+    "auroc_se": 0.0645139023442158,
+    "n_eval": 34
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.7028400808764753,
+    "auroc_se": 0.01661002063689765,
+    "n_eval": 927
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.3769645789350223,
+    "auroc_se": 0.037376806717904054,
+    "n_eval": 287
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.6137499999999999,
+    "auroc_se": 0.04194431960959164,
+    "n_eval": 170
+  },
+  {
+    "model": "Llama-3.2-3B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.9983463264824002,
+    "auroc_se": 0.0013926909540467676,
+    "n_eval": 185
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.884375,
+    "auroc_se": 0.044310702096812905,
+    "n_eval": 56
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5386111111111112,
+    "auroc_se": 0.04430345419934043,
+    "n_eval": 170
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "roleplaying",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.15738172671256342,
+    "auroc_se": 0.012441649592729994,
+    "n_eval": 928
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.594475721323012,
+    "auroc_se": 0.03518944397973683,
+    "n_eval": 287
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.8125,
+    "auroc_se": 0.07037260805256808,
+    "n_eval": 34
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "insider_trading",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.5401080309920362,
+    "auroc_se": 0.01914856688699159,
+    "n_eval": 928
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "roleplaying",
+    "auroc": 0.33954961294862773,
+    "auroc_se": 0.036341952351160466,
+    "n_eval": 287
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "insider_trading",
+    "auroc": 0.5216666666666667,
+    "auroc_se": 0.04409640670724476,
+    "n_eval": 170
+  },
+  {
+    "model": "Meta-Llama-3.1-8B-Instruct",
+    "fit_dataset": "sandbagging",
+    "eval_dataset": "sandbagging",
+    "auroc": 0.9984644460193716,
+    "auroc_se": 0.001433888040312202,
+    "n_eval": 185
+  }
+]
