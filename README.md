@@ -1,22 +1,13 @@
 # Deception probes off-distribution
 
-Do released linear "deception probes" still work when applied off the
-distribution they were built on? This repo takes Apollo Research's released
-probes ([Detecting Strategic Deception Using Linear Probes](https://arxiv.org/abs/2502.03407),
-fit on Llama-3.3-70B) and audits how they behave on smaller open models and on
-deception datasets they were not trained on.
+This repository studies cross-dataset transfer of locally fitted linear probes using Apollo Research's existing response text. It also includes a separate compatibility test of the released 70B detector. The smaller-model transfer results are not evaluations of that released detector unchanged.
 
-Replication-and-extend project. LessWrong post: _(link to be added)_
+- [Original LessWrong post](https://www.lesswrong.com/posts/MFdGxip7TdQS8eNc2/cross-dataset-transfer-evaluation-of-deception-probes-in)
+- [Response pooling follow-up: results, code, figure and reproduction limits](followup/README.md)
 
 ## Motivation
 
-> _(Framing paragraph — author to finalize in their own voice.)_
-
-A deception monitor is only useful if it fires on the deception you actually
-care about, not just the kind it was trained on. Apollo's probes reproduce
-strong same-distribution AUROCs on a 70B model. The safety-relevant question is
-what happens when a practitioner reuses them off-distribution — a smaller model,
-a different kind of lie. This project measures that.
+The project asks how probe results change across datasets and model sizes. The follow-up tests how one response template affects two ways of averaging response-token activations.
 
 ## Setup
 
@@ -27,9 +18,7 @@ a different kind of lie. This project measures that.
 - **Data:** Apollo's own shipped, graded 70B rollouts for three deception
   datasets (roleplaying, insider trading, sandbagging), teacher-forced through
   each small model so the text is held constant and only representations vary.
-- **Probes:** per-token logistic-regression probes at the paper's layer
-  convention (fraction 0.275 of depth = layer 22 of 80 on the 70B, 8192-dim),
-  applied with the released scaler.
+- **Probes:** locally fitted logistic-regression probes on pooled response activations at layer fraction 0.275; the released 70B detector compatibility check is separate.
 - **Models:** Llama-3.2-1B/3B, Llama-3.1-8B, Gemma-2-2B/9B (ungated mirrors;
   provenance recorded in the results doc).
 - **Metric:** AUROC (deceptive vs honest), stratified bootstrap 95% CIs.
@@ -38,8 +27,7 @@ a different kind of lie. This project measures that.
 
 Apollo's nine published AUROCs re-derive exactly from their shipped per-token
 scores. A same-distribution refit on Llama-3.1-8B reaches CV-AUROC 0.9365
-against a pre-registered 0.94 bar — a documented miss, with a clean
-capability-ordered size trend (1B 0.863 → 8B 0.936) validating the instrument.
+against a pre-registered 0.94 bar — a documented miss, with a size trend (1B 0.863 → 8B 0.936). This does not establish successful replication.
 
 ## Findings
 

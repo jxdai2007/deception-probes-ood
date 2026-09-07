@@ -1,0 +1,7 @@
+{
+  "implementation": "CPython",
+  "machine": "arm64",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "python": "3.11.15",
+  "status": "fresh-environment-verification-record"
+}

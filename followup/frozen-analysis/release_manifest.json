@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "jrp_common/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "jrp_common/metrics.py": "3d040270afe31e04fd6b8024300728543a4bb883bd72f05b2ef055346b7d13ad",
+    "jrp_common/probes.py": "3ced79b1979e52aed09514c6c2aaa779ec2bddbda144cd24516d0f5032645137",
+    "p04/__init__.py": "380f17a257f86c2648288c4a4d15e4e26d5ba67a657c40e85d404dd966bc943c",
+    "p04/condition_io.py": "41b28603ad70eeb4be77badad4ce8b919fa8915e9410f138eb1c98bb0e2d0edd",
+    "p04/figures_pooling_mechanism.py": "bb7ace1fdd312e3649559e6aee3399421068f7d057a28a07154fe4e9b5b27033",
+    "p04/loader.py": "5e1236638c43c3ac86d2c588d340adebb815207819eb8cbe87af807f07dac6cb",
+    "p04/pooling.py": "398116fb6d0f0c951bbbb0b01680cae292420cf906eed9b4ecff2066700f38ac",
+    "p04/pooling_confirmation.py": "4abd9f71af0b0ad22c486d5afc55972533ed7ec52cb0dc859e7002d1f78703e8",
+    "p04/pooling_mechanism.py": "77c82b4ee7e863ebd80a2b7c21bc14d840326bd191b1b085ba9cc88d6f04cff2",
+    "p04/rendering.py": "fbcf57b491de3874cf5002031b0d0670bda0bf0e204f191860c56307bed419e0",
+    "p04/report_pooling_mechanism.py": "b005befce91cdf18a5cdf88d24e9ffdba6948d26ad7970f25dc8a719b05a0e32",
+    "p04/verify_release_bundle.py": "6ba5654052f9850abaa066dbc6b00ac289263f08ae93c32b2e8580916e408e58",
+    "pooling_confirmation.generated.md": "8f4b8fa743ae9a4f072f0962b2c0596274c254afe09c80a504ab05adcf0dcb09",
+    "pooling_confirmation.png": "effc3f0ded2cb60463fb0510e157afaf83bdb263bcf741b2a8ca817749b236f4",
+    "pooling_confirmation.public.json": "8641ceda667711ee8b8a7331c8ca02667f9359d0b8aee9aa230f0424edddb39c",
+    "pooling_confirmation_protocol.public.json": "9b77c51f6315c12bfee137229c612a30c6c78638c8bdbee23d5d28092951e128",
+    "pooling_mechanism_discovery.public.json": "20ced2cd568acca12680162dd63d6156c9aef664db3aed114f949d476da0cc3d",
+    "release-environment.json": "1ab9ce8f3e1258c8ebc2f0df536ba09de7a68c376669fab088907da02bd304fa",
+    "requirements-release.lock.txt": "a2e8f316a7691b149a092056a0b33275fbeb1b945b13043194f5f14cec2f515c",
+    "requirements-release.txt": "91d334bf6b0e7fbac7b7fa66d5a3cb82cdc2fdf08f8e2012c35a08eb0268d26e",
+    "verify_release.sh": "3fedbe067acf925ec67ffacb4f9fbd8ebf2323a59b98b794c0bc49df9ec03fa9"
+  },
+  "excluded": [
+    "raw activation payloads",
+    "cluster paths and account identifiers",
+    "preservation and availability manifests with private locations",
+    "draft posts and authoring packets",
+    "other Rapid Projects"
+  ],
+  "schema_version": 1,
+  "source_records": {
+    "confirmation_sha256": "d22cd5044d4103e0a5f96920d69df025b99ae9bf3982fce5c785135544c43b74",
+    "discovery_sha256": "4a231b95617471287f833a5bba832b7d8332ec80bdadb1a2624cb5d4f928db84"
+  },
+  "status": "local_release_staging_only"
+}

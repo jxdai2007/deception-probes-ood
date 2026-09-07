@@ -1,0 +1,188 @@
+{
+  "analysis_code_commit": "5e1ebb6d1d4646a8e482d2243ff559effc1ebe1f",
+  "artifact_schema_version": 1,
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 42
+  },
+  "component_signs": {
+    "final_k": -1,
+    "full": 1
+  },
+  "confirmation_analysis_source_sha256": {
+    "common/jrp_common/probes.py": "3ced79b1979e52aed09514c6c2aaa779ec2bddbda144cd24516d0f5032645137",
+    "projects/04-deception-probes/p04/condition_io.py": "41b28603ad70eeb4be77badad4ce8b919fa8915e9410f138eb1c98bb0e2d0edd",
+    "projects/04-deception-probes/p04/loader.py": "5e1236638c43c3ac86d2c588d340adebb815207819eb8cbe87af807f07dac6cb",
+    "projects/04-deception-probes/p04/pooling.py": "398116fb6d0f0c951bbbb0b01680cae292420cf906eed9b4ecff2066700f38ac",
+    "projects/04-deception-probes/p04/pooling_confirmation.py": "4abd9f71af0b0ad22c486d5afc55972533ed7ec52cb0dc859e7002d1f78703e8",
+    "projects/04-deception-probes/p04/pooling_mechanism.py": "77c82b4ee7e863ebd80a2b7c21bc14d840326bd191b1b085ba9cc88d6f04cff2"
+  },
+  "dataset_sha256": {
+    "roleplaying": "b80332e391a00cfa8eba758723b63535351d0b71f803e2012426c4d97ef30390",
+    "sandbagging": "2f57cd2abe2aeb3f47392e6212c982472840591c510118e8149383ec1dcb069c"
+  },
+  "discovery_analysis_source_sha256": {
+    "jrp_common/probes.py": "3ced79b1979e52aed09514c6c2aaa779ec2bddbda144cd24516d0f5032645137",
+    "p04/analyze_pooling_mechanism.py": "c889b967e96bec3c1f1d680dd83bb8f346b3d81eb0f68c2c0a91f40443ed7e80",
+    "p04/condition_io.py": "41b28603ad70eeb4be77badad4ce8b919fa8915e9410f138eb1c98bb0e2d0edd",
+    "p04/loader.py": "5e1236638c43c3ac86d2c588d340adebb815207819eb8cbe87af807f07dac6cb",
+    "p04/pooling.py": "398116fb6d0f0c951bbbb0b01680cae292420cf906eed9b4ecff2066700f38ac",
+    "p04/pooling_mechanism.py": "77c82b4ee7e863ebd80a2b7c21bc14d840326bd191b1b085ba9cc88d6f04cff2"
+  },
+  "discovery_endpoint": {
+    "cell_aurocs": {
+      "full_r0": 0.1576050652028695,
+      "full_r2": 0.2912927303883128,
+      "window_r0": 0.5659773653587368,
+      "window_r2": 0.3861442692147581
+    },
+    "ci95": [
+      0.2648472064902752,
+      0.36290213276795136
+    ],
+    "common_ids_sha256": "d5f7a12aaba124adedece79e6b75fd9457753df212f05442c276cb8358303cbf",
+    "components": {
+      "full_delta": 0.13368766518544334,
+      "window_delta": -0.1798330961439787
+    },
+    "estimate": 0.313520761329422,
+    "n_boot": 10000,
+    "n_common": 913,
+    "se": 0.024989859450996455,
+    "seed": 42
+  },
+  "discovery_evidence": {
+    "Meta-Llama-3.1-8B-Instruct": {
+      "path": "private-path://Meta-Llama-3.1-8B-Instruct__format_geometry.json",
+      "sha256": "cca7b1ccd337679020625890c55ee12a24cb786eacdd4baca781584622118152"
+    },
+    "gemma-2-9b-it": {
+      "path": "private-path://gemma-2-9b-it__format_geometry.json",
+      "sha256": "cea662b76a08e8f7cc8825ac8a9b1ef8d111da53b7671350cebd7d4997df9a45"
+    }
+  },
+  "discovery_preservation_manifest_sha256": "9dd873a984ce6dea958f2b253a0de0213e379c1b8d4da2f017fba725f7460e1e",
+  "discovery_preserved_artifact_sha256": {
+    "Meta-Llama-3.1-8B-Instruct__roleplaying__acts.npy": "81b7d3df3483920a116e7581e99112c65cef489a4d6d7bc0d4521516255b15c7",
+    "Meta-Llama-3.1-8B-Instruct__roleplaying__labels.npy": "0048a999de45e14fc3a78ccbfb7238f18d7183074cd934914e884e50e5252fad",
+    "Meta-Llama-3.1-8B-Instruct__roleplaying__lengths.npy": "ef49644de1dcf9223588f579e5d3c7e78186b5d455f54e0d1a434cac3bbafbf4",
+    "Meta-Llama-3.1-8B-Instruct__roleplaying__meta.json": "9ba40b70112dfd9b5effaf786d2dc050bdc9db25047d049db4b0ebc10e093cbe",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__acts.npy": "93851608ede48e893482bd68b5809beb3320f2165a2d464a56456af1bee17a18",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__labels.npy": "ceeea501f66d4c0c2fc488e20bf72befcfef36864358ea3c6be8c66deb63f717",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__lengths.npy": "60ec64852826641bd520ab87bd0481749b3725daf0383895d2c73d7c3be09f9f",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__meta.json": "8e1e89f4d0f04a36538da6fc28cc45acee0d3b794499feb4bd1686963a9184f6",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r0__acts.npy": "c7266ab0c1574d556fbd182535f1c08f6eadc6b857ac0ed4a705594e7b320cc5",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r0__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r0__lengths.npy": "ab75ad1b564fcb23b4f46f07a95810bea172d93eea4cced0ef8c2157b42b44dd",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r0__meta.json": "e1a969396d44582abc6f99476e5590ef5b9c7c258fb979001f0bf1e0ea7f2b26",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r0__rows.json": "1bedfa580179df8b7b7fa4b2b0bea839790875ecf52ec4d70f178115dc1e4e12",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r1__acts.npy": "884d65078beee87a3cb7e045f955e67c09f000d41e0e79c1106f3a1511a61367",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r1__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r1__lengths.npy": "98c53f6aed4626629fff459d2169a4393da10c32292ec0d2c80eab3c32a7277a",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r1__meta.json": "1266abde637ad5932b679e313d4575653f72b69ea6cf06ae1fc2d12418949bbc",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r1__rows.json": "18685c96943f4b1170e318cf57a0b8caea0d84b5d7c62422489c969328ad1a6c",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r2__acts.npy": "a68ad007c7b9bb6d7e95127a039bd76cc2c09cfda6534e3d75a855c7aa01722f",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r2__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r2__lengths.npy": "5bd98d7ad1a09dcad7e8d07659f176aff2e37d44d2e28eae0d612c5c649cd2a9",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r2__meta.json": "685ca425065bcc915ecd95a8d0eedce2f9b3ab310d2222d44796c4bde0ec6ea7",
+    "Meta-Llama-3.1-8B-Instruct__sandbagging__r2__rows.json": "580078a0244e261c3c727d08d6bb8b8a9f1424a98ee0e8a0cf108e6b765b0fd7",
+    "gemma-2-9b-it__roleplaying__acts.npy": "4e4cf13bc8399ad442eccde1c9e6d34cb7cb68f1391a66f9484aefb7f64de8e7",
+    "gemma-2-9b-it__roleplaying__labels.npy": "0048a999de45e14fc3a78ccbfb7238f18d7183074cd934914e884e50e5252fad",
+    "gemma-2-9b-it__roleplaying__lengths.npy": "ca0ac6484b4caf706c806d65144e626f3647e4edbb4494d4681472c9eddf3b7d",
+    "gemma-2-9b-it__roleplaying__meta.json": "ea725d9bfc0973a711c409b079c48943da1d8997386a2d5f0a5c462c2620f49b",
+    "gemma-2-9b-it__sandbagging__acts.npy": "49d22c5f7420674d847c0eb534520c87fc783d990edb93a4b9140fcb2830067f",
+    "gemma-2-9b-it__sandbagging__labels.npy": "ceeea501f66d4c0c2fc488e20bf72befcfef36864358ea3c6be8c66deb63f717",
+    "gemma-2-9b-it__sandbagging__lengths.npy": "0701243e094d2c7b5be05d0f3a7f91bd04311be0aa47b554d8ff9aaf91aef065",
+    "gemma-2-9b-it__sandbagging__meta.json": "2cccae56fa18775ddef48c509453314e34f0365a0401ededcb2f137ed70c518a",
+    "gemma-2-9b-it__sandbagging__r0__acts.npy": "6234562deae1433e200c3a0dddb542b77ca4e5fca77881a47d8ecdc218754169",
+    "gemma-2-9b-it__sandbagging__r0__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "gemma-2-9b-it__sandbagging__r0__lengths.npy": "e4029f65b16aa9f43c50754fd15ed0f93b98a4886e149c2f24925c027b5e25cb",
+    "gemma-2-9b-it__sandbagging__r0__meta.json": "a6809570796055e912279fa1d0ad253f5816b70ba88485cfdd071130ae384eea",
+    "gemma-2-9b-it__sandbagging__r0__rows.json": "ee1c6ab7f485389296e2f2aa985ae6eb7cb9c33cce1faf71cda4add1f868046a",
+    "gemma-2-9b-it__sandbagging__r1__acts.npy": "78bb747df71efb66ec3b1f35d7b32d8cd4be4a8e9ba28078aad6aeaeecdd6e84",
+    "gemma-2-9b-it__sandbagging__r1__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "gemma-2-9b-it__sandbagging__r1__lengths.npy": "3b98945091fd799d7a6ad7b2777f6b09c04620edc631f3a90697179c9e528ce7",
+    "gemma-2-9b-it__sandbagging__r1__meta.json": "b3cfe14641e334c614a91f7551a539daf36424ed969b93df18dd8048962a4c53",
+    "gemma-2-9b-it__sandbagging__r1__rows.json": "8e6233703f1e806b56e732f6c26a13ecbc95cd8dbaa65c487bfef00359e948e5",
+    "gemma-2-9b-it__sandbagging__r2__acts.npy": "d2b17895daaf5f783b0188546b12ef6889f62bffc328845e9970213386f5c6a3",
+    "gemma-2-9b-it__sandbagging__r2__labels.npy": "5882f575482b1eff654bfe953f6d9056185ff1afd593b1c6d9077621705e5895",
+    "gemma-2-9b-it__sandbagging__r2__lengths.npy": "f446e31bf35e111381c7c56e3d7b97d3707df33f8ffb470b86f3c71ef200613f",
+    "gemma-2-9b-it__sandbagging__r2__meta.json": "a8f43c27e732ca68a9c7cf63fe9cdb4b5473f9270feafad1b4fa68823fce7394",
+    "gemma-2-9b-it__sandbagging__r2__rows.json": "40ac4d1ef025fab47aeb4733ed9c1441b63b160c035e6d1a21d29d9de6b6c13e"
+  },
+  "discovery_sha256": "2e7baae72d47ecafb61abb6d2498409a312b8c2254bf66f36173e47e7d0638c6",
+  "experiment": "p04_pooling_mechanism_confirmation",
+  "inclusion_rules": {
+    "eos_token": "excluded",
+    "invalid_selected_answer": "exclude_and_record",
+    "labels": [
+      0,
+      1
+    ],
+    "pairing": "common_example_id_and_immutable_hash",
+    "prompt_tokens": "excluded",
+    "short_final_windows": "retain_and_report_coverage",
+    "truncated": "exclude",
+    "zero_length": "exclude"
+  },
+  "instrument": {
+    "layer_frac": 0.275,
+    "max_tokens": 2048
+  },
+  "min_full_window_coverage": 0.95,
+  "model": {
+    "model_id": "unsloth/Llama-3.2-3B-Instruct",
+    "model_short": "Llama-3.2-3B-Instruct",
+    "resolved_model_revision": "006f5dcd1393c3add266de40994ba96225e9689d",
+    "resolved_tokenizer_revision": "006f5dcd1393c3add266de40994ba96225e9689d"
+  },
+  "ordering": "full_delta_gt_final_k_delta",
+  "parity": {
+    "inclusive_tolerance": 0.02,
+    "target_auroc": 0.22073635209479472
+  },
+  "primary_endpoint": "delta_r2_r0_full_response_minus_delta_r2_r0_final_4",
+  "primary_formula": "(AUROC_R2_full-AUROC_R0_full)-(AUROC_R2_final_4-AUROC_R0_final_4)",
+  "renderings": [
+    "r0",
+    "r1",
+    "r2"
+  ],
+  "requirements_lock_sha256": "5d476f1e9ad321c5babec46c301985aac704d7f2f6c57aa0e513f88a1ea23d31",
+  "schema_version": 1,
+  "selected_k": 4,
+  "selection_record": {
+    "eligible_windows": [
+      1,
+      2,
+      4
+    ],
+    "gate_checks": {
+      "at_least_three_eligible": true,
+      "at_least_three_positive": true,
+      "no_interval_entirely_below_zero": true,
+      "selected_interval_above_zero": true
+    },
+    "ineligible_windows": [
+      8
+    ],
+    "k_max": 4,
+    "min_coverage": 0.95,
+    "one_se_threshold": 0.28853090187842556,
+    "positive_eligible_windows": [
+      1,
+      2,
+      4
+    ],
+    "proceed": true,
+    "selected_k": 4
+  },
+  "source_sha256": {
+    "projects/04-deception-probes/p04/condition_io.py": "41b28603ad70eeb4be77badad4ce8b919fa8915e9410f138eb1c98bb0e2d0edd",
+    "projects/04-deception-probes/p04/extract_activations.py": "dfd559e87cd978d6e24ad813b7d5e6f218e845b33bc6713ceb55f1b215414bff",
+    "projects/04-deception-probes/p04/loader.py": "5e1236638c43c3ac86d2c588d340adebb815207819eb8cbe87af807f07dac6cb",
+    "projects/04-deception-probes/p04/rendering.py": "fbcf57b491de3874cf5002031b0d0670bda0bf0e204f191860c56307bed419e0",
+    "projects/04-deception-probes/slurm/extract_format_geometry.sbatch": "d5b4f983e0c6604430147f4fc1d8aef0b91e03b381ac1dc8009534aa0a8721c0",
+    "projects/04-deception-probes/slurm/run_format_geometry.sh": "a0f86461464f69ee2c3d807e20a1e19f6534d6289874a0166fcfb84f8893ddb7"
+  }
+}
